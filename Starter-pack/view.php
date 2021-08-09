@@ -11,20 +11,15 @@
 <!-- TODO: add a form for the user to play the game -->
 
 <form method="get">
-    <label for="word">Word in French:</label>
-    <input type="text" id="word" name="word" value="<?php echo isset($_GET["word"]) ? $_GET["word"] : ''; ?>">
+
+    <p class="chosenWord"> The word to translate: <?= $game->chosenWord->word ?> </p>
 
     <label for="answer">Translation in English:</label>
-    <input type="text" id="answer" name="answer" value="<?php echo isset($_GET["answer"]) ? $_GET["answer"] : ''; ?>">
+<!--    <input type="text" id="answer" name="answer" value="--><?php //echo isset($_GET["answer"]) ? $_GET["answer"] : ''; ?><!--">-->
 
     <br>
     <button type="submit">Go</button>
 </form>
-<!--<p>-->
-<?php
-//
-//
-//?>
-<!--</p>-->
+
 </body>
 </html>
