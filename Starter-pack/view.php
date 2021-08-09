@@ -14,8 +14,8 @@
 
     <p class="chosenWord"> The word to translate: <?= $game->chosenWord->word ?> </p>
 
-    <label for="answer">Translation in English:</label>
-<!--    <input type="text" id="answer" name="answer" value="--><?php //echo isset($_GET["answer"]) ? $_GET["answer"] : ''; ?><!--">-->
+    <label for="userAnswer">Translation in English:</label>
+    <input type="text" id="userAnswer" name="userAnswer" value="<?php echo isset($_GET["userAnswer"]) ? $_GET["userAnswer"] : ''; ?>">
 
     <br>
     <button type="submit">Go</button>

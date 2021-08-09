@@ -27,7 +27,7 @@ class LanguageGame
 
         // Option B: user has just submitted an answer
         // TODO: verify the answer (use the verify function in the word class) - you'll need to get the used word from the array first
-
+        $this->chosenWord->verify($_GET['$userAnswer']);
 
         // TODO: generate a message for the user that can be shown
 
