@@ -18,4 +18,5 @@ require_once 'classes/Word.php';
 $game = new LanguageGame();
 $game->run();
 
+
 require 'view.php';
