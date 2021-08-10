@@ -12,8 +12,8 @@ class LanguageGame
         // and are used mostly for more *static* types of data (a fixed set of translations in this case)
         foreach (Data::words() as $frenchTranslation => $englishTranslation) {
             // TODO: create instances of the Word class to be added to the words array
-        $word = new Word($frenchTranslation, $englishTranslation);
-        $this->words[] = $word;
+            $word = new Word($frenchTranslation, $englishTranslation);
+            $this->words[] = $word;
         }
     }
 
@@ -27,9 +27,15 @@ class LanguageGame
 
         // Option B: user has just submitted an answer
         // TODO: verify the answer (use the verify function in the word class) - you'll need to get the used word from the array first
-        $this->chosenWord->verify($_GET['$userAnswer']);
+        //TODO: use Sessions to save answer
+        //TODO: use verify to get true and false and then display message based on that
 
-        // TODO: generate a message for the user that can be shown
-
+        if (!empty($_GET))
+        {
+            $this->chosenWord->verify($_GET['userAnswer']);
+        }
     }
+
+    // TODO: generate a message for the user that can be shown
+
 }

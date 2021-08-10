@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Starter-pack/classes/LanguageGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-pack/classes/LanguageGame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Starter-pack/classes/Word.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-pack/classes/Word.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starter-pack/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-pack/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628492911438</updated>
-      <workItem from="1628492912981" duration="20358000" />
+      <workItem from="1628492912981" duration="20658000" />
     </task>
     <servers />
   </component>
