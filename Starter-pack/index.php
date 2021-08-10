@@ -22,6 +22,7 @@ function whatIsHappening() {
     var_dump($_COOKIE);
     echo '<h2>$_SESSION</h2>';
     var_dump($_SESSION);
+
 }
 
 whatIsHappening();
@@ -36,6 +37,11 @@ require_once 'classes/Word.php';
 // Start the game
 $game = new LanguageGame();
 $game->run();
+
+
+var_dump('<pre>');
+var_dump($game);
+var_dump('</pre>');
 
 
 require 'view.php';

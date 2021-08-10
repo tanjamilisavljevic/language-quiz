@@ -10,15 +10,16 @@
 <body>
 <!-- TODO: add a form for the user to play the game -->
 
-<form method="get">
+<form method="get" action="./">
 
     <p class="chosenWord"> The word to translate: <?= $game->chosenWord->word ?> </p>
 
     <label for="userAnswer">Translation in English:</label>
-    <input type="text" id="userAnswer" name="userAnswer" value="<?php echo isset($_GET["userAnswer"]) ? $_GET["userAnswer"] : ''; ?>">
+    <input type="text" id="userAnswer" name="userAnswer">
+    <button type="submit" name="submit">Go</button>
 
-    <br>
-    <button type="submit">Go</button>
+    <p class="answerCheck"> <?= $game->message ?> </p>
+
 </form>
 
 </body>
